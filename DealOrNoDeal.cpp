@@ -1,3 +1,11 @@
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <iomanip>
+#include <string>
+#include <exception>
+using namespace std;
 vector< pair<int, double> > LoadCases(vector<double>, vector< pair<int, double> >);
 void DisplayCases(vector< pair<int, double> >, int);
 void DisplayCaseAmounts(vector< pair<int, double> >);
